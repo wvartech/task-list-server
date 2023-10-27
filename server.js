@@ -17,21 +17,6 @@ const users = [
     { email: "user@www.com", name: "user", password: "user", role: "user"}
 ];
 
-
-const TaskArray = [{
-    id:1,
-    desc: 'Comer',
-    status: 'pending',
-},{
-    id:2,
-    desc: 'Correr',
-    status: 'complete',
-},{
-    id:3,
-    desc: 'Bailar',
-    status: 'In Progress',
-}];
-
 app.use(express.json());
 
 const JWTValidation = (req,res,next) => {
